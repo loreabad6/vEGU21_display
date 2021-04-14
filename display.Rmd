@@ -34,24 +34,37 @@ knitr::opts_chunk$set(
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 library(xaringanExtra)
-xaringanExtra::use_xaringan_extra(c("tile_view", "panelset"))
+use_xaringan_extra(c("tile_view", "panelset"))
 style_duo_accent(
   primary_color =  "#E59400",#"#1381B0",
   secondary_color = "#006400", #"#FF961C",
   inverse_header_color = "#FFFFFF",
   text_font_size = "13pt",
   header_h3_font_size = "24pt",
-  title_slide_background_image = "figs/bg.JPG",
+  title_slide_background_image = "figs/bg.jpg",
   footnote_font_size = '0.5em',
   footnote_position_bottom = "30px",
   extra_css = list(
     ".pull-left-70" = list("float" = "left", "width" = "65.8%"),
     ".pull-right-30" = list("float" = "right", "width" = "28.2%"),
     ".pull-left-35" = list("float" = "left", "width" = "32.9%"),
-    ".pull-right-65" = list("float" = "right", "width" = "61.1%")
+    ".pull-right-65" = list("float" = "right", "width" = "61.1%"),
+    ".my-footer" = list(
+        "position" = "absolute",
+        "bottom" = "3px",
+        "left" = "0px",
+        "height" = "33px",
+        "width" = "100%"
+      )
   )
 )
 ```
+
+
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ### Study Area
 
@@ -110,6 +123,11 @@ tm_shape(aoi, name = "Study area") +
 ]
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Landslides along the recently constructed roads 
 - Several landslides were triggered due to road construction, which affected an approximate area of 32 ha. 
 
@@ -120,6 +138,11 @@ knitr::include_graphics("figs/lucma_landslides_aoi_nosubset.png")
 ```
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Landslide characteristics for three subset areas
 - We investigated in detail three specific subsets, where we identified, delineated, and described **56 landslides**. 
 
@@ -130,11 +153,16 @@ knitr::include_graphics("figs/lucma_landslides_aoi.png")
 ```
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Landslide quantitative characteristics
 
 .panelset[
 .panel[.panel-name[Results]
-![](figs/lucma_landslides_quant.png)
+<center><img src="figs/lucma_landslides_quant.png" height="300px" /></center>
 ]
 .panel[.panel-name[Descriptions]
 ![](figs/lucma_landslides_quant_desc.png)
@@ -142,6 +170,11 @@ knitr::include_graphics("figs/lucma_landslides_aoi.png")
 ]
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Landslide qualitative characteristics
 
 .panelset[
@@ -183,6 +216,11 @@ Distinction between flow and slide types.
 ]
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Landslide occurrence 
 .panelset[
 .panel[.panel-name[Visual interpretation]
@@ -221,6 +259,11 @@ Distinction between flow and slide types.
 ]
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Final remarks
 We observed that the majority of mapped landslides were directly (e.g., landslides resulting from slope undercutting) or indirectly associated with road constructions (e.g., rainfall-induced landslides resulting from a combination of extreme precipitation over slopes with decreased stability) and that the road constructions also may set preconditions for subsequent rainfall-triggered landslides.
 
@@ -229,6 +272,11 @@ We observed that the majority of mapped landslides were directly (e.g., landslid
 <img src="figs/P1000539.JPG" width="350px"/>
 
 ---
+<div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ### Further work
 Emmer, A., Hölling, D., Abad, L., Štěpánek, P., Zahradníček, P., Emmerova, I. (in revision). *Landslides Associated with Recent Road Constructions in the Río Lucma Catchment, Eastern Cordillera Blanca, Peru*. Submitted to Geomatics, Natural Hazards and Risk.
 
@@ -242,6 +290,8 @@ Lorena Abad and Daniel Hölbling have also been supported by the Austrian Scienc
 
 `r anicon::faa("twitter", color = "#006400", animate="wrench", anitype="parent-hover",rtext = "    [**@loreabad6**](https://twitter.com/loreabad6)")`
 
+.pull-right[
 .footnote[
 Slides powered by [xaringan](https://github.com/yihui/xaringan),  [xaringanthemer](https://github.com/gadenbuie/xaringanthemer) & [xaringanExtra](https://github.com/gadenbuie/xaringanExtra)
+]
 ]
