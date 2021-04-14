@@ -202,7 +202,7 @@ Schematic types of movements distinguished in this study.
 
 **(2)** Landslides downslope the road 
 
-**(3)** complex landslides
+**(3)** Complex landslides
 ]
 ]
 
@@ -233,9 +233,11 @@ Distinction between flow and slide types.
 .pull-right[
 - We conducted a visual interpretation of satellite imagery on the [Planet Explorer online platform](https://www.planet.com/explorer/) to determine landslide occurrence and road construction dates. 
 
+- Hence, the landslide occurrence and road construction dates refer to the first time the landslide or the new road, respectively, was observed on VHR imagery.
+
 - Based on this interpretation we derived the timing of occurrence of the landslides as the number of days between road construction and landslide occurrence.
 
-- Hence, the landslide occurrence and road construction dates in the following panels refer to the first time the landslide or the new road, respectively, was observed on VHR imagery.
+
 
 ]
 ]
