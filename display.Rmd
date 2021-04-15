@@ -42,7 +42,7 @@ style_duo_accent(
   text_font_size = "13pt",
   header_h3_font_size = "24pt",
   title_slide_background_image = "figs/bg.jpg",
-  footnote_font_size = '0.5em',
+  footnote_font_size = '0.75em',
   footnote_position_bottom = "30px",
   extra_css = list(
     ".pull-left-70" = list("float" = "left", "width" = "65.8%"),
@@ -284,6 +284,8 @@ Lorena Abad and Daniel Hölbling have also been supported by the Austrian Resear
 
 .pull-right[
 .footnote[
-Slides powered by [xaringan](https://github.com/yihui/xaringan),  [xaringanthemer](https://github.com/gadenbuie/xaringanthemer) & [xaringanExtra](https://github.com/gadenbuie/xaringanExtra)
+Slides powered by [xaringan](https://github.com/yihui/xaringan),  [xaringanthemer](https://github.com/gadenbuie/xaringanthemer) & [xaringanExtra](https://github.com/gadenbuie/xaringanExtra).
+<br>
+Source [GitHub repository](https://github.com/loreabad6/vEGU21_display).
 ]
 ]
