@@ -263,6 +263,9 @@ We observed that the majority of mapped landslides were directly (e.g., landslid
 <img src="figs/P1000537.JPG" width="350px"/>
 <img src="figs/P1000539.JPG" width="350px"/>
 
+.footnote[
+**Field photos:** © Copyright 2019 Adam Emmer.
+]
 ---
 <div class="my-footer"><span>&emsp;<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png"height="25px"/></a>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
