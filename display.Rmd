@@ -71,13 +71,13 @@ style_duo_accent(
 .pull-left-35[
 #### Rio Lucma Catchment
 
-- **Location**: eastern side of the Cordillera Blanca.
+- **Location**: eastern side of the Cordillera Blanca, Peru.
 
-- **Average rainfall** in the area: 1,169 mm/year, (80% during the rainy season i.e. November to April). 
+- **Average rainfall** in the area: 1,169 mm/year, (80% during the rainy season, i.e. November to April). 
 
-- **Elevation difference**: 2,500 - 5,830 m a.s.l.
+- **Elevation**: 2,500 - 5,830 m a.s.l.
 
-- **47 km** of simple unpaved roads were *recently* constructed to connect remote settlements.
+- **47 km** of unpaved roads were *recently* constructed to connect remote settlements.
 
 - Located in a high relief landslide-prone area.
 
@@ -205,14 +205,6 @@ Schematic types of movements distinguished in this study.
 **(3)** Complex landslides
 ]
 ]
-
-.panel[.panel-name[Categorization according to landslide type]
-Distinction between flow and slide types.
-
-- Flow type: a landslide where the length to width ratio is > 3
-- Slide type: a landslide where the length to width ratio is <= 3
-
-]
 ]
 
 ---
@@ -233,14 +225,12 @@ Distinction between flow and slide types.
 .pull-right[
 - We conducted a visual interpretation of satellite imagery on the [Planet Explorer online platform](https://www.planet.com/explorer/) to determine landslide occurrence and road construction dates. 
 
-- Hence, the landslide occurrence and road construction dates refer to the first time the landslide or the new road, respectively, was observed on VHR imagery.
+- Hence, the landslide occurrence and road construction dates refer to the first time the landslide or the new road, respectively, was observed on the satellute imagery.
 
 - Based on this interpretation we derived the timing of occurrence of the landslides as the number of days between road construction and landslide occurrence.
-
-
-
 ]
 ]
+
 .panel[.panel-name[Road construction and rainfall]
 .pull-left[
 
@@ -280,12 +270,12 @@ We observed that the majority of mapped landslides were directly (e.g., landslid
 </span></div> 
 
 ### Further work
-Emmer, A., Hölling, D., Abad, L., Štěpánek, P., Zahradníček, P., Emmerova, I. (in revision). *Landslides Associated with Recent Road Constructions in the Río Lucma Catchment, Eastern Cordillera Blanca, Peru*. Submitted to Geomatics, Natural Hazards and Risk.
+Emmer, A., Hölling, D., Abad, L., Štěpánek, P., Zahradníček, P., Emmerova, I. *Landslides Associated with Recent Road Constructions in the Río Lucma Catchment, Eastern Cordillera Blanca, Peru*. Submitted to Geomatics, Natural Hazards and Risk.
 
 ### Acknowledgements
 This work was supported by the AUT-CZE MOBILITY project ‘Is the occurrence of slope movements in the Cordillera Blanca, Peru, influenced by the El Niño Southern Oscillation?’ (Project No. 8J18AT032 and CZ 04/2018, respectively).
 
-Lorena Abad and Daniel Hölbling have also been supported by the Austrian Science Fund (FWF) through the project MORPH (Mapping, Monitoring and Modelling the Spatio-Temporal Dynamics of Land Surface Morphology; FWF-P29461-N29) and the Austrian Research Promotion Agency (FFG) through the project MontEO (The impact of mass movements on alpine trails and huts assessed by EO data; contract no. 873667).
+Lorena Abad and Daniel Hölbling have also been supported by the Austrian Research Promotion Agency (FFG) through the project MontEO (The impact of mass movements on alpine trails and huts assessed by EO data; contract no. 873667).
 
 ### Contact 
 `r anicon::faa("envelope", color = "#006400", animate="wrench", anitype="parent-hover",rtext = "    [**lorenacristina.abadcrespo@sbg.ac.at**](mailto:lorenacristina.abadcrespo@sbg.ac.at)")`
